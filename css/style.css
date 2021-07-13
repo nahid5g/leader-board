@@ -1,0 +1,181 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*commonn styles*/
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #F3F1FF;
+	margin: 0;
+}
+main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.container {
+	width: 870px;
+	border-radius: 5px;
+	background: white;
+	padding: 30px;
+	margin-top: 36px;
+	margin-bottom: 10px;
+}
+hr {
+	border: 1px solid #D1D1D1;
+	margin: 27px 0;
+}
+a {
+	text-decoration: none;
+}
+
+/*Navigation styles*/
+header {
+	height: 94px;
+	background: #562EFF;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.header-container {
+	width: 870px;
+	border-radius: 5px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo-area {
+	display: flex;
+	align-items: center;
+}
+#logo-area img {
+	width: 40.42px;
+	height: 51px;
+}
+#logo-area a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 18px;
+}
+#menu-area img {
+	width: 51px;
+	height: 51px;
+	margin-left: 15px;
+}
+#menu-area ul {
+	display: flex;
+}
+#menu-area ul li {
+	list-style: none;
+	padding: 10px;
+}
+#menu-area ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+/*Top Players*/
+
+.players {
+	display: grid;
+	grid-row-gap: 35px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.player {
+	display: flex;
+}
+.player img {
+	width: 56px;
+	height: 56px;
+}
+.player h3 {
+	margin-left: 10px;
+}
+.section-title {
+	margin-top: 3px;
+    margin-bottom: 30px;
+    color: #562EFF;
+}
+/*Top Blogs*/
+.blogs {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+.blog {
+	display: flex;
+	align-items: center;
+}
+.blog img {
+	width: 177px;
+	height: 117px;
+}
+.blog-detail {
+	margin-left: 15px;
+}
+.blog h3 {
+	font-size: 20px;
+}
+.blog a{
+	text-decoration: none;
+	color: #562EFF;
+}
+.blog p {
+	color: #9F9F9F;
+}
+
+/*Course Styles*/
+.courses {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 24px;
+}
+.course {
+	box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+	padding: 10px;
+	display: grid;
+	justify-content: center;
+}
+.course-banner img {
+	width: 244px;
+	height: 124px;
+}
+.course-title {
+	font-size: 20.03px;
+}
+.course-author {
+	font-size: 15px;
+	color: #ED6B4F;
+}
+.course-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fa-star.filled {
+	color: #FFC014;
+}
+.fa-star.gray {
+	color: #AEAEAE;
+}
+.course-duration {
+	background: #FEE5DF;
+	color: #FF4A60;
+	padding: 5px 12px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.fa-clock {
+	margin-right: 5px;
+}
+/*Footer styling*/
+footer {
+	background: black;
+	padding: 16px;
+	margin-top: 15px;
+}
+footer p {
+	text-align: center;
+	color: white;
+}
